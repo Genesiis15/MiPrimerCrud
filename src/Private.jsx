@@ -8,7 +8,6 @@ export const PrivateRoute = ({redirectTo ='/'}) => {
         showConfirmButton: true,
       
     })
-
   return <Navigate to={redirectTo}/>
   }
 
