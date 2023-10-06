@@ -1,4 +1,4 @@
-.tw-followCard{
+/* .tw-followCard{
     display: flex;
     align-items: center;
     gap:20px;
@@ -41,4 +41,60 @@ border-radius: 1000px;
 
 body{
     background-color: white;
+} */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+list-style: none;
+}
+
+ul{
+ 
+    display: flex;
+    align-items: ;
+    gap: 20px;
+    font-size: 20px;
+    
+}
+
+.brand{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+
+nav{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: rgba(58, 201, 153, 0.44);
+    padding: 20px;
+    
+}
+
+.btnSalir:hover{
+    color: red;
+    transform: scale(1.1);
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(108, 108, 108);
+    font-weight: 500;
+    
+}
+
+.link:hover{
+    color: rgb(23, 22, 22);
+}
+
+.main{
+    padding-top: 5%;
+
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
 }

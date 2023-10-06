@@ -1,0 +1,66 @@
+h1{
+   
+    text-align: center;
+    
+}
+
+.title{
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: plum;
+}
+.container{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.container input{
+    border: none;
+    box-shadow: -1px -1px 4px 3px silver;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+
+    
+}
+
+.BtnRegistrar{
+    background-color: rgba(58, 201, 153, 0.276);
+    font-weight: 600;
+    color: rgb(108, 108, 108);
+}
+
+.BtnRegistrar:hover{
+    color: rgb(23, 22, 22);
+}
+
+.texto{
+    display: flex;
+    gap: 10px;
+}
+ main{
+
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+ }
+
+.texto{
+    margin-top: 40px;
+}
